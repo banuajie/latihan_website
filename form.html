@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form</title>
+    </head>
+
+    <body>
+        <form>
+            <label for="username">Username : </label>
+            <input type="text" id="username" placeholder="Input Username">
+            <br>
+            <label for="password">Password : </label>
+            <input type="password" id="password" placeholder="Input Password">
+            <br>
+            <label for="jenisKelamin">Jenis Kelamin : </label>
+            <input type="radio" id="pria" name="jenisKelamin"><label for="pria">Pria</label>
+            <input type="radio" id="wanita" name="jenisKelamin"><label for="wanita">Wanita</label>
+            <br>
+            <label for="hobi">Hobi : </label>
+            <input type="checkbox" id="menyanyi"><label for="menyanyi">Menyanyi</label>
+            <input type="checkbox" id="olahraga"><label for="olahraga">Olah Raga</label>
+            <input type="checkbox" id="ngoding"><label for="ngoding">Ngoding</label>
+            <br>
+            <label for="alamat">Alamat : </label>
+            <textarea name="alamat" id="alamat" cols="30" rows="2" placeholder="Inputkan Alamat Lengkap"></textarea>
+            <br>
+            <label for="jurusan">Jurusan : </label>
+            <select name="jurusan" id="jurusan">
+                <option value="sistemInformasi">Sistem Informasi</option>
+                <option value="sistemInformatika">Sistem Informatika</option>
+                <option value="teknikKomputer">Teknik Komputer</option>
+            </select>
+            <br>
+            <button type="submit">Kirim</button>
+            <button type="reset">Reset</button>
+        </form>
+        <hr>
+    </body>
+</html>
